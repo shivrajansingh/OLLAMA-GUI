@@ -122,6 +122,8 @@ const apiClient: AxiosInstance = axios.create({
     'Content-Type': 'application/json',
     'Access-Control-Allow-Origin' : '*',
     'Access-Control-Allow-Headers' : '*',
+    'CF-Access-Client-Id': 'f7c6929424bda276379f9497720c28ca.access',
+    'CF-Access-Client-Secret': '0eb2cd093469273abed35b4dc990df1d71be6c7768f6af32157ff2d015a468c0'
   },
 })
 
